@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{E7E32317-6D57-4A46-911A-F3EC4FD93A82}">
+	<children>
+		<child name="WebApp" key="{F533B327-3089-430F-B254-E1DE952B0523}" path="WebApp\WebApp.mds" />
+		<child name="DesktopApp" key="{F4785A11-490D-45F0-BA04-7258FA0568DD}" path="DesktopApp\DesktopApp.mds" />
+		<child name="MobileApp" key="{60541301-8BD1-4703-B8B6-0A26CEE66752}" path="MobileApp\MobileApp.mds" />
+	</children>
+	<testItems key="{936598E9-0A5B-47C9-BB7E-0425CA950622}">
+		<children>
+			<testItem key="{F533B327-3089-430F-B254-E1DE952B0523}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{F4785A11-490D-45F0-BA04-7258FA0568DD}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{60541301-8BD1-4703-B8B6-0A26CEE66752}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{7421767B-E7AD-4C7B-BE1C-45F3331D4F1F}" />
+	<analysis key="{A21143E4-1CDF-4F73-9AF5-D770527EE9F5}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

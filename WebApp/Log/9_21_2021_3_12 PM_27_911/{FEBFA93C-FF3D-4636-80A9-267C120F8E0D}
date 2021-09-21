@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="errors">
+			<Prp name="error0" type="S" value=""/>
+		</Node>
+		<Prp name="capabilities" type="S" value="{&quot;platform&quot;:&quot;Windows 10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;latest&quot;,&quot;screenResolution&quot;:&quot;1366x768&quot;}"/>
+		<Prp name="testname" type="S" value="Login"/>
+		<Prp name="logfilename" type="S" value="{F967E63C-4C16-4F60-AC42-86D1AB0FF6FA}\Description.tcLog"/>
+	</Node>
+</Nodes>

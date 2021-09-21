@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="19611"/>
+						<Prp name="name" type="S" value="Contact"/>
+						<Prp name="starttime" type="D" value="44460.6318519097"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEIAOQA0AEIAQQA0ADgALQBBAEMARAAwAC0ANAAyADIANAAtADgAMgBEAEEALQA3ADYAOQAzADUARgAzADcANAA0AEIANQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="19611"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="23271"/>
+						<Prp name="name" type="S" value="Contact"/>
+						<Prp name="starttime" type="D" value="44460.6318639699"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxAEEARgAzADAAQgA0AEQALQA2AEEAOAA0AC0ANAA5ADMARgAtADgAOQAzADYALQBBAEIAMgA1ADIARQBFAEYARgBGAEIARgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="23271"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="30777"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6313848843"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADAARQBCADIANgA1AEEALQA2ADkAOAAwAC0ANAAwAEIAQgAtAEIANQA1ADgALQAxAEIAMgAzADgAQwA1ADUAMwA4AEUANQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="30777"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="27216"/>
+						<Prp name="name" type="S" value="Contact_2"/>
+						<Prp name="starttime" type="D" value="44460.6322374306"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADMAQwBGADMAMQA0ADEALQAyADEANAA4AC0ANAA0ADkANAAtAEEAQQBCAEQALQAwADQANgAxAEIAQQAwAEYARAAyADQAMwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="27216"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="23172"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6313591088"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADgANgBGAEYAMgA4AEMALQA4ADQAOQBFAC0ANAA1AEMAMwAtAEIANwAwADgALQAxAEQAMgA5AEEAMQBCAEQAOQAyADkANgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="23172"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="25738"/>
+						<Prp name="name" type="S" value="Contact_2"/>
+						<Prp name="starttime" type="D" value="44460.6322506597"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADIAMABDADgANABDADEALQBGAEMAOQA3AC0ANAAyADMANwAtADgAMwBBADQALQBCADcAQgBEAEIANwAxADMANQA4AEIARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="25738"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="25218"/>
+						<Prp name="name" type="S" value="Contact_2"/>
+						<Prp name="starttime" type="D" value="44460.6322289583"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEMAMwAxADEAMwA1ADgALQBFAEIAMQA1AC0ANABFADMARQAtADkAQQA2ADYALQA2AEYAMAA4AEIARAAyAEEAOAAwAEEAOQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="25218"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="24012"/>
+						<Prp name="name" type="S" value="Contact"/>
+						<Prp name="starttime" type="D" value="44460.6318837616"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADQAMQA4ADAAQQA3AEIALQBDADUAMgBEAC0ANABDAEQAMwAtADgAQwA3ADcALQAzADQANAAzAEQAMgA3ADEAMgAzAEMANwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="24012"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="This action is not available in TestExecute Lite."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Exception"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="30023"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6314170602"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEYANgBDAEYAOABBAEIALQA2ADcAOABGAC0ANAAwADMAMAAtAEEAQwBDAEIALQBEADcANwAyADQAQQBEADIAQQBEADIARgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="30023"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="229038"/>
+				<Prp name="name" type="S" value="WebApp"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44460.6313591088"/>
+				<Prp name="failedtests" type="I" value="9"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="44460.6311816782"/>
+		<Prp name="stop" type="D" value="44460.6325943519"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="name" type="S" value="SeptemberSuite"/>
+		<Prp name="user" type="S" value="Corey.Vernon"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{5B49776C-03B6-4717-A891-CA69A16C4154}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="PC15MYFV"/>
+		<Prp name="tests" type="I" value="9"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="9"/>
+		<Prp name="testname" type="S" value="WebApp"/>
+	</Node>
+</Nodes>

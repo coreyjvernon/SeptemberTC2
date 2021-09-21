@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44432.661729294"/>
+				<Prp name="end time" type="D" value="44432.6619978356"/>
+				<Prp name="details" type="S" value="{127B5641-413F-4704-9B93-6F695530688F}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Contact_2 [Script\ContactScript - Contact]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44432.6616399653"/>
+				<Prp name="end time" type="D" value="44432.6617291551"/>
+				<Prp name="details" type="S" value="{89EFCC77-BB1E-433E-B877-16780FFBB874}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Contact [KeywordTests - Contact]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44432.6614554398"/>
+				<Prp name="end time" type="D" value="44432.6616398611"/>
+				<Prp name="details" type="S" value="{1C41916E-789C-41DF-9C68-9510E3165837}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Login [KeywordTests - Login]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

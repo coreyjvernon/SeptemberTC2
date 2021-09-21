@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6836252546"/>
+						<Prp name="duration" type="I" value="20688"/>
+						<Prp name="durationwithoutchildren" type="I" value="20688"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADIAOAAyAEYAOQA0ADkALQAzADAANwBFAC0ANAA5ADMANgAtAEEAQQA1ADQALQAzAEEANgAxAEIAQwA4AEQAQgBEADIAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;buttonLogIn&quot; does not exist."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;textboxUsername&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;passwordboxPassword&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;pageLogin&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="An error occurred while trying to execute a command on the remote browser."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;pageLogin&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6836490162"/>
+						<Prp name="duration" type="I" value="62385"/>
+						<Prp name="durationwithoutchildren" type="I" value="62385"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEMAMgBFADEAOAAwAEMALQAyADMAQgA0AC0ANAA5ADMANAAtAEEAMwAyADcALQAyAEMARQA2AEYAMgBCADQAMAAwADEAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="starttime" type="D" value="44460.6836349769"/>
+						<Prp name="duration" type="I" value="23705"/>
+						<Prp name="durationwithoutchildren" type="I" value="23705"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEQAQwA2AEIANgAzAEEALQBEADIARgBGAC0ANAAyADcAMQAtADgANABDADMALQA4ADQAQwA4ADMAMwA5ADAAMQA0ADgAMQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="WebApp"/>
+				<Prp name="starttime" type="D" value="44460.6836252546"/>
+				<Prp name="duration" type="I" value="106778"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44460.6843975579"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="name" type="S" value="SeptemberSuite"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="key" type="S" value="{10EED47F-8BB2-44F2-A730-D3951B8179BA}"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="PC15MYFV"/>
+		<Prp name="testname" type="S" value="WebApp"/>
+		<Prp name="starttime" type="D" value="44460.6835310417"/>
+		<Prp name="user" type="S" value="Corey.Vernon"/>
+	</Node>
+</Nodes>

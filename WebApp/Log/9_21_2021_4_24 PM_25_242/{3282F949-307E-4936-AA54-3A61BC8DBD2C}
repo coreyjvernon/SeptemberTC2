@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 5">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44460.6838593056"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44460.6838046875"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{6CA6D257-F886-4A21-A1F5-B2713FC58881}"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="The text 'SB' was entered in the text editor."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44460.683826794"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.sectionContent.textboxUsername&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/login?ReturnUrl=%2F&quot;).FindElement(&quot;#Username&quot;))"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://smartstore.alertsite.com/ page."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44460.6837787732"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: https://smartstore.alertsite.com/&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;Remote&quot;).Page(&quot;data:,&quot;)"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="message" type="S" value="The value of the SeptemberSuite.WebApp.KeywordTests.Login.password variable was entered in the text editor."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44460.6838370486"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.sectionContent.passwordboxPassword&#xA;(Sys.Browser(&quot;Remote&quot;).Page(&quot;https://smartstore.alertsite.com/login?ReturnUrl=%2F&quot;).FindElement(&quot;#Password&quot;))"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Remote Chrome was launched."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44460.6837540625"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt; 			&lt;body&gt; 				The browser was run with the following capabilities: 				&lt;pre&gt;{&#xA;  &quot;browserName&quot; : &quot;Chrome&quot;,&#xA;  &quot;platform&quot; : &quot;Windows 10&quot;,&#xA;  &quot;screenResolution&quot; : &quot;1366x768&quot;,&#xA;  &quot;version&quot; : &quot;latest&quot;&#xA;}&lt;/pre&gt; 				&lt;p&gt;The hub URL: 					&lt;a href = 'aqa-url://http://hub.crossbrowsertesting.com:80/wd/hub'&gt;http://hub.crossbrowsertesting.com:80/wd/hub&lt;/a&gt; 				&lt;/p&gt; 				&lt;p&gt; 					See the details of your test run at &lt;a href = 'aqa-url://https://app.crossbrowsertesting.com/selenium/5bcab7ff428eae4b5539570c1687c7f2'&gt;CrossBrowserTesting App&lt;/a&gt;. 				&lt;/p&gt; 			&lt;/body&gt; 		&lt;/html&gt;"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

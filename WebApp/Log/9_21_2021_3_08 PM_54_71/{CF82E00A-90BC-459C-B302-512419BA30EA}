@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="errors">
+			<Prp name="error0" type="S" value="This action is not available in TestExecute Lite.&#xA;This action is not available in TestExecute Lite.&#xA;The script execution was interrupted.&#xA;"/>
+		</Node>
+		<Prp name="capabilities" type="S" value="{&quot;platform&quot;:&quot;Windows 10&quot;,&quot;browserName&quot;:&quot;MicrosoftEdge&quot;,&quot;version&quot;:&quot;79&quot;,&quot;screenResolution&quot;:&quot;1366x768&quot;}"/>
+		<Prp name="logfilename" type="S" value="{F24D229F-E55C-4E39-BBAB-B7FBADFFFDF5}\Description.tcLog"/>
+		<Prp name="testname" type="S" value="Contact_2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="errors">
+			<Prp name="error0" type="S" value="An error occurred while trying to execute a command on the remote browser.&#xA;The object &quot;pageLogin&quot; does not exist.&#xA;The object &quot;textboxUsername&quot; does not exist.&#xA;The object &quot;passwordboxPassword&quot; does not exist.&#xA;The object &quot;buttonLogIn&quot; does not exist.&#xA;The object &quot;pageLogin&quot; does not exist.&#xA;"/>
+		</Node>
+		<Prp name="testname" type="S" value="Login"/>
+		<Prp name="capabilities" type="S" value="{&quot;platform&quot;:&quot;MacOS 11.0&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;14&quot;,&quot;screenResolution&quot;:&quot;1366x768&quot;}"/>
+		<Prp name="logfilename" type="S" value="{072B2795-618A-446F-B715-C7547BA0ABC1}\Description.tcLog"/>
+	</Node>
+</Nodes>
