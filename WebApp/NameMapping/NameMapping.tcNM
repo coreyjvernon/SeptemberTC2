@@ -703,6 +703,53 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMozillaFirefox" Key="{ABEF993C-B394-4334-832E-FDD02FC6B8C3}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://browser/content/browser.xhtml" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolbarPersonaltoolbar" Key="{2B36D809-4310-49E5-86E3-060A008CA318}">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="toolbar" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="PersonalToolbar" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbaritemPersonalBookmarks" Key="{A163E5B6-539E-4D15-AB15-981DC0BBF1A2}">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="toolbaritem" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="personal-bookmarks" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="toolbarbuttonSmartstore" Key="{F447BC91-81E9-4E9A-85BF-929232919651}">
+														<TypeInfo Item0="{D5B48617-F531-468D-B74C-6C5CB3511699}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="toolbarbutton" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -770,6 +817,9 @@
 					<Child Name="panelFilterBy" Owner="{09165922-3964-486D-A3BD-DE6AE7F011D8}" />
 					<Child Name="textnode" Owner="{4C77CC81-CF71-4375-9711-14CA8E5DAE44}" />
 				</Child>
+			</Child>
+			<Child Name="pageMozillaFirefox" Owner="{ABEF993C-B394-4334-832E-FDD02FC6B8C3}">
+				<Child Name="toolbarbuttonSmartstore" Owner="{F447BC91-81E9-4E9A-85BF-929232919651}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
